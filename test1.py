@@ -1,12 +1,6 @@
-
-print("Think of a number,")
-input("Press enter:")
-print(" now Double your number.")
-input("Press Enter:")
-print("now add 10 to it.")
-input("Press Enter:")
-print("NOW divide the result by 2.")
-input("Press Enter:")
-print("now subtract ir from original number.")
-input("Press Enter:")
-print("Your final number is 5")
+i = 1
+while i < 9:
+  print(i)
+  if (i == 7):
+    break
+  i += 1
